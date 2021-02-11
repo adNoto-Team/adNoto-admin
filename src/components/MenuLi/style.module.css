@@ -1,0 +1,15 @@
+li {
+	list-style-type: none;
+	padding: 1vh 0px;
+	padding-right: 10vw;
+	padding-left: 20px;
+}
+li:hover {
+	width: fit-content;
+	background-color: #1b1b28;
+}
+
+a {
+	color: #9a9bb8;
+	text-decoration: none;
+}

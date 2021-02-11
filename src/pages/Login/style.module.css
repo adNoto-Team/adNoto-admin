@@ -1,0 +1,33 @@
+input {
+	border: solid;
+	border-radius: 5px;
+	border-color: #dedede;
+	width: 100%;
+	font-size: 24px;
+	padding: 10px 30px;
+	display: flex;
+	align-self: center;
+	justify-self: center;
+	color: #333;
+}
+
+input:focus {
+	border-color: #fff;
+}
+input[type="text"]:focus {
+	border-color: #fff;
+}
+
+.container {
+	padding-top: 30px;
+	align-content: center;
+	justify-content: center;
+}
+
+.mainContainer {
+	padding-top: 7vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}

@@ -1,0 +1,42 @@
+.contAll {
+	position: absolute;
+
+	top: 6vh;
+	left: 50%;
+
+	transform: translate(-50%, 0%);
+	align-self: center;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.container {
+	display: flex;
+	padding: 2.5vh 0vw;
+
+	width: 100%;
+	justify-content: center;
+}
+.textElement {
+	padding-left: 10px;
+	padding-right: 15px;
+	font-weight: 600;
+}
+.catchPhrase {
+	align-content: center;
+	justify-self: center;
+}
+
+.h1 {
+	align-content: center;
+	justify-self: center;
+}
+.h1,
+.h3 {
+	letter-spacing: 2px;
+	font-weight: 400;
+}
+
+.h3 {
+	font-size: 15px;
+}

@@ -1,0 +1,35 @@
+.sideBar {
+	position: fixed;
+	margin: 0px;
+	padding: 0%;
+	background-color: #fff;
+	height: 100vh;
+	justify-content: center;
+	-webkit-box-shadow: -10px 0px 13px -7px #dedede, 10px 0px 13px -7px #dedede,
+		0px 0px 50px -30px rgba(222, 222, 222, 0.06);
+	box-shadow: -10px 0px 13px -7px #dedede, 10px 0px 13px -7px #dedede,
+		0px 0px 50px -30px rgba(222, 222, 222, 0.06);
+}
+
+li {
+	list-style-type: none;
+	padding-right: 5vw;
+}
+
+.text {
+	color: aliceblue;
+	padding-left: 1vw;
+	font-size: 12px;
+}
+
+.logoContainer {
+	margin: 15px;
+	display: flex;
+
+	margin-bottom: 50px;
+	background-color: #fff;
+	align-content: center;
+	justify-content: center;
+	padding: 8px 5px;
+	border-radius: 20px;
+}
