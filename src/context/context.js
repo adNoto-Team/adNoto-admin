@@ -99,7 +99,7 @@ export const Provider = ({ children }) => {
 			},
 		});
 	};
-	const website = "https://api.adnoto.co/";
+	const website = "https://adnoto.karpuz.surf/";
 	const values = {
 		setAvatar,
 		setThumbnail,
